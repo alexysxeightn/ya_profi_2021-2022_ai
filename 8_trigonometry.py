@@ -1,3 +1,1 @@
-n = int(input())
-a = set(map(lambda x: abs(int(x)), input().split()))
-print(len(a))
+n = input(); print(len(set(map(lambda x: abs(int(x)), input().split()))))
